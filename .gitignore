@@ -40,6 +40,8 @@ bin/
 *.json
 *.vcd
 !tester/src/test/resources/*.vhd
+*.config
+*.bit
 
 
 simWorkspace/
