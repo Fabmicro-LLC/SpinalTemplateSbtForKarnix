@@ -2,7 +2,7 @@ FREQUENCY PORT "clk" 25.0 MHz;
 LOCATE COMP "clk" SITE "B9";
 IOBUF PORT "clk" IO_TYPE=LVCMOS33;
 
-LOCATE COMP "reset" SITE "R8";
+LOCATE COMP "reset" SITE "E13";
 IOBUF PORT "reset" IO_TYPE=LVCMOS33;
 
 LOCATE COMP "io_cond0" SITE "B13";             # KEY0
@@ -11,8 +11,8 @@ IOBUF PORT "io_cond0" IO_TYPE=LVCMOS33;
 LOCATE COMP "io_cond1" SITE "C13";             # KEY1
 IOBUF PORT "io_cond1" IO_TYPE=LVCMOS33;
 
-LOCATE COMP "io_flag[0]" SITE "A13";             # LED0
-IOBUF PORT "io_flag[0]" IO_TYPE=LVCMOS33;
+LOCATE COMP "io_flag" SITE "A13";             # LED0
+IOBUF PORT "io_flag" IO_TYPE=LVCMOS33;
 
 LOCATE COMP "io_state[0]" SITE "L1";             # GPIO_00
 IOBUF PORT "io_state[0]" IO_TYPE=LVCMOS33;
