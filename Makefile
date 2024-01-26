@@ -20,7 +20,7 @@ $(NAME).bin: $(LPF) $(VERILOG)
 	ecppack --compress --freq 38.8 --input $(NAME)_out.config --bit $(NAME).bit
 
 
-upload_openloader:
+upload:
 ifeq ("$(FLASH_METHOD)", "flash")
 	openFPGALoader -v --ftdi-channel $(FTDI_CHANNEL) -f --reset $(NAME).bin
 else
