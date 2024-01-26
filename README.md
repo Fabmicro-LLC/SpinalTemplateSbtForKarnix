@@ -1,4 +1,6 @@
-# SpinalHDL Base Project
+# SpinalHDL Base Project with Makefile for Karnix ASB-254 board
+
+Karnix ASB-254 board is an open source hardware project based on Lattice ECP5 FPGA. Karnix repository is available on Github: https://github.com/Fabmicro-LLC/Karnix_ASB-254 
 
 This repository is a base project to help Spinal users set-up project without knowledge about Scala and SBT.
 
