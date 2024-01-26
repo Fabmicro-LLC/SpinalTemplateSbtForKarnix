@@ -28,5 +28,5 @@ else
 endif
 
 clean:
-	@rm $(NAME).json $(NAME)_out.config $(NAME).bit $(VERILOG)
+	@rm *.json *.config *.bit $(VERILOG)
 
