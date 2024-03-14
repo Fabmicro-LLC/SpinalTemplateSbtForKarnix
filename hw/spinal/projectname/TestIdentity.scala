@@ -26,8 +26,9 @@ object TestIdentity extends App {
       // Read output
       val z = dut.io.z.toInt
       // Check result
-      assert(z == a, s"Got $z, expected $a")
+      assert(z == a, s"FAIL: Got $z, expected $a")
     }
+    println(s"SUCCESS!")
   }
 }
 
